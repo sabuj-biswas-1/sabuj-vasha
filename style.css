@@ -319,11 +319,17 @@ h1,h2,h3{
    INVITATION IMAGE
 ===================================== */
 
-.invite-grid{
+.event-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(2, 1fr);
     gap:30px;
-    margin-top:40px;
+    margin-top:50px;
+}
+
+@media (max-width:768px){
+    .event-grid{
+        grid-template-columns:1fr;
+    }
 }
 
 .invite-card{
