@@ -343,6 +343,7 @@ h1,h2,h3{
     transform:translateY(-8px);
 }
 
+
 /* =====================================
    ANIMATION
 ===================================== */
@@ -430,6 +431,12 @@ h1,h2,h3{
 
     margin:8px 0;
 
+}
+
+.event-divider{
+    margin: 25px 0;
+    border: none;
+    border-top: 1px solid #ddd;
 }
 
 /* =====================================
